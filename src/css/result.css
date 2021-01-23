@@ -1,0 +1,25 @@
+.loader{
+    margin: 20%;
+    text-align: center;
+
+}
+
+.result-heading{
+    background-image: linear-gradient(to bottom, #55349f, #5c359c, #633699, #693797, #6e3994, #763a91, #7d3b8d, #833d8a, #8d3f86, #954182, #9d447e, #a3487a);
+    min-height: 34vh;
+    max-width: 100vw;
+    margin-top: -20vh;
+    border-radius: 0 0 0 400px;
+    box-shadow: none;
+    padding: 0;
+    margin-right: 0;
+}
+
+.result-heading h1{
+    color: #FF634E;
+    font-size: 45px;
+    width: 100vw;
+    max-width: 100vw;
+    text-align: center;
+    padding-top: 20vh;
+}

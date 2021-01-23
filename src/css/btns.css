@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+
+.big-btn,
+.small-btn,
+button{
+    overflow: hidden;
+    color: #FF634E;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+   
+}
+
+.big-btn button{
+    border: #FF634E solid 1.5px;
+    border-radius: 25px;
+    
+    width: 300px;
+    height: 60px;
+
+    font-weight: bolder;
+    font-size: 2rem;
+    
+}
+.big-btn button :hover{
+    color: #B128BD;
+}
+
+.small-btn button{
+    border: #FF634E solid 1.5px;
+    border-radius: 25px;
+    margin-right: 10px;
+    
+    width: 200px;
+    height: 40px;
+
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+.small-btn-white button{
+    border: #ffffff solid 1.5px;
+    color: white;
+    border-radius: 25px;
+    margin-right: 10px;
+    
+    width: 200px;
+    height: 40px;
+
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 1178px) {
+    .small-btn-white button{
+        width: 14vw;
+        height: 24px;
+        font-size: .9rem;
+    }
+    .big-btn button{
+        width: 210px;
+        height: 42px;
+        font-size: 1.8rem;
+        margin-bottom: 6%;
+    }
+}

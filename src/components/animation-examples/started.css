@@ -1,0 +1,7 @@
+.heading-started{
+    background-color: rgb(0, 30, 255);
+    transition: all 5s ease-out;
+}
+.heading-started ::before{
+    background-color: orangered;
+}
