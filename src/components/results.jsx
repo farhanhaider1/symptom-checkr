@@ -32,7 +32,7 @@ const Result = (props) => {
             let error = false;
             const symptom = getSymptomArray();
         
-            let url = `http://localhost:4000/issues?${symptom}&gender=${gender}&birth=${dob}`;
+            let url = `https://doc-tap-farhan.herokuapp.com/issues?${symptom}&gender=${gender}&birth=${dob}`;
             try {
                let symptomArray = await axios.get(url).then(setLoader(false));
                 console.log(symptomArray);

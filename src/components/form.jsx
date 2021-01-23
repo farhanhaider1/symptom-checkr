@@ -46,7 +46,7 @@ const Form = () => {
 
     
     const getAllSymptoms = async() => {
-        let symptomArray = await axios.get('http://localhost:4000/issues/getSymptoms');
+        let symptomArray = await axios.get('https://doc-tap-farhan.herokuapp.com/issues/getSymptoms');
         setAllSymptoms(symptomArray.data)
         return symptomArray.data;
     }
